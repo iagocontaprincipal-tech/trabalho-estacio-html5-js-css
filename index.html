@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iago loja </title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <button id="btn-menu">Menu</button>
+        <nav id="menu" class="menu">
+            <a href="#vitrine">Produtos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h2>Iago loja </h2>
+        <p id="desconto"></p>
+    </section>
+
+    <section id="vitrine" class="container">
+        <div class="produtos">
+            <div class="cartao">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_851720-MLB115455708598_082026-O-cabo-displayport-21-16k-full-hd-240hz-144hz-165hz-80gbps-2m.webp" alt="Produto 1">
+                <p>Cabo Displayport 2.1 16k Full Hd 240hz 144hz 165hz 80gbps 2m</p>
+                <p>R$ 35,90</p>
+            </div>
+            <div class="cartao">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_710576-MLA117488774728_102026-O.webp" alt="Produto 2">
+                <p>Papel Higiênico Folha Dupla 30m L24p22 Personal</p>
+                <p>R$ 25,90</p>
+            </div>
+            <div class="cartao">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_812362-MLA108883569719_032026-O.webp" alt="Produto 3">
+                <p>Pasta de Amendoim Crocante Integral Power 1 One Pote 1,005kg</p>
+                <p>R$ 23,90</p>
+            </div>
+            <div class="cartao">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_731949-MLA79951741684_102024-O.webp" alt="Produto 4">
+                <p>Mouse Logitech M240 Business Grafite S/ Fio - Cinza</p>
+                <p>R$ 72,32</p>
+            </div>
+            <div class="cartao">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_988796-MLA100048295983_122025-OO.jpg" alt="Produto 4">
+                <p>Kit Teclado e Mouse MK120 USB Logitech 920-004429</p>
+                <p>R$ 99,20</p>
+            </div>
+            <div class="cartao">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_625768-MLA96098720689_102025-O.webp" alt="Produto 4">
+                <p>Headset Hp Call Center Dhe-8009 194r3aa conexão P3</p>
+                <p>R$ 45,20</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="container">
+        <form id="contato">
+            <input id="nome" type="text" placeholder="Nome completo">
+            <input id="email" type="text" placeholder="Seu e-mail">
+            <button type="submit">Enviar</button>
+            <p id="erro"></p>
+        </form>
+    </section>
+
+    <footer>
+        <p>contato@minhaloja.com</p>
+    </footer>
+
+</body>
+</html>
